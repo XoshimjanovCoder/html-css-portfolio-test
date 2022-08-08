@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar p{
+  color: #F7DC4F;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  margin: 20px 0;
+}
+.navbar a{
+  text-decoration: none;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  margin-right: 20px;
+}
+.navbar{
+  padding: 20px 40px ; 
+}
+.aboutMeDepartment{
+  width: 50%;
+  background: #015761;
+}
+.myPhoto{
+  width: 50%;
+  background-image: url(./photos/photo_2022-08-08_18-54-06.jpg);
+  background-attachment: fixed;
+  background-size: 50% 100vh;
+}
+.myPhoto img{
+  width: 100%;
+  height: 100vh;
+}
+.about_text{
+  font-size: 48px;
+  margin: 100px 0 0 100px;
+  color: #F7DC4F;
+  word-spacing: 10px;
+  font-family: 'Roboto' , sans-serif;
+}
+.name{
+  font-size: 75px;
+  margin: 20px 0 0 100px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-weight: 900;
+}
+.mySkils{
+  font-size: 22px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  align-items: center;
+  margin: 20px 0 0 100px;
+}
+.mySkils p{
+  color: #F7DC4F;
+  margin-right: 5px;
+}
+.mySkils a{
+  text-decoration: none;
+  margin: 0 5px;
+  color: rgba(0, 255, 34, 0.9);
+  font-size: 18px;
+}
+.AboutMeSection{
+  width: 100%;
+  height: 75vh;
+  background: rgb(232, 229, 229);
+}
+.AboutMeText{
+  font-size: 48px;
+  font-weight: 900;
+  color: #015761;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 100px;
+}
+.aboutMe{
+  text-align: center;
+  color: black;
+  width: 800px;
+  margin: 20px auto;
+  line-height: 27px;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 3px;
+}
+.btnAboutMe {
+  width: 160px;
+  height: 40px;
+  background: #F7DC4F;
+  color: #015761;
+  display: flex;
+  justify-content: center;
+ margin: 0 auto;
+ align-items: center;
+ text-decoration: none;
+ border: none;
+ transition: .3s;
+}
+.btnAboutMe:hover{
+  background: #015761;
+  color: #F7DC4F;
+  cursor: pointer;
+}
+.myphoto_row1{
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+.myphoto_row2{
+  display: flex;
+  justify-content: center;
+  padding: 0 30px;
+}
+.myphoto_row3{
+  display: flex;
+  justify-content: center;
+  padding: 40px 0 0 0;
+}
+.myPhotoSection img:hover{
+  opacity: .8;
+  cursor: pointer;
+}
+
+
+
+
